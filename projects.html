@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html" />
+	<meta name="author" content="" />
+
+	<title>Cosmo</title>
+    <link rel="stylesheet" href="assets/css/projects.css"/>
+     <link rel="stylesheet" href="assets/css/boostrap.css"/>
+     <link rel="stylesheet" href="assets/css/projects/projects.css"/>
+     <link rel="stylesheet" href="assets/css/projects/projects_form.css"/>
+     <script src="assets/js/manage_project.js"></script>
+     
+     
+
+</head>
+
+<body>
+<div class="col-md-12 col-xs-6" id="navcontainer">
+<span id="cosmo_span">Welcome to Cosmo</span>
+<div class="col-md-12 col-xs-6" id="ulnav">
+<ul class="col-xs-12" id="nav">
+	<li class="home"><a href="#">Projects</a></li>
+	<li class="tutorials"><a href="#">Reports</a></li>
+	<li class="about"><a href="#">Finance</a></li>
+    <li ><a class="logout" href="#">LogOut</a></li>
+    
+	
+</ul>
+  <div style="margin-top: 150px;">
+  <div id="user_profile_div"><img id="user_profile"src="assets/img/others/user_profile.jpg"/>
+  <span id="hi">Hi Trump</span>
+  </div>
+  <hr />
+ <a href="#openModal"><img src="assets/img/others/addproject.png"/></a>
+ <a href="#manage_project" ><img src="assets/img/others/project_sample.png" style="border: 2px solid silver;"/></a>
+ 
+ <hr />
+ 
+ 
+ </div>
+ <!-- hidden dialog/modal -->
+ <div id="openModal" class="modalDialog">
+	<div class="col-xs-12" id="form_div">
+		<a href="#close" title="Close" class="close">X</a>
+		<h2 style="background: silver;">Create a project</h2>
+        <label id="label">Project Name</label><br />
+        <input id="input_field"type="text" id="input_field"/><br />
+        <label id="label">Description</label><br />
+        <input id="input_field"type="text" id="input_field"/><br />
+        
+        <label id="label">Starting</label><br />
+        <input id="input_field"type="text" id="input_field"/><br />
+        
+        <label id="label">End date</label><br />
+        <input id="input_field"type="text" id="input_field"/><br />
+        <label id="label">Upload a cover image</label><br />
+        <input id="pic_upload_field" type="file" accept="image/pict" size="20" value="Civer image" placeholder="jdjjd" />
+        <button id="button">Create</button>
+        <a id="close2" href="#close">Close</a>
+	</div>
+</div>
+
+
+ <div id="manage_project" class="manage_project">
+	<div class="col-xs-12" id="form_div">
+		<a href="#close" title="Close" class="close">X</a>
+		<h2 style="background: silver;">Create a project</h2>
+        <label id="label">Project Name</label><br />
+        <input id="input_field"type="text" id="input_field"/><br />
+        <label id="label">Description</label><br />
+        <input id="input_field"type="text" id="input_field"/><br />
+        
+        <label id="label">Starting</label><br />
+        <input id="input_field"type="text" id="input_field"/><br />
+        
+        <label id="label">End date</label><br />
+        <input id="input_field"type="text" id="input_field"/><br />
+        <label id="label">Upload a cover image</label><br />
+        <input id="pic_upload_field" type="file" accept="image/pict" size="20" value="Civer image" placeholder="jdjjd" />
+        <button id="button">Create</button>
+        <a id="close2" href="#close">Close</a>
+	</div>
+</div>
+
+
+</body>
+</html>
