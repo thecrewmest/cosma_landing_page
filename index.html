@@ -10,7 +10,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1"> 
 		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 		<!-- SITE TITLE -->
-		<title>Ratio - Material Design Agency Template</title>			
+		<title>Cosmo</title>			
 		<!-- Latest Bootstrap min CSS -->
 		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">		
 		<!-- Google Font -->
@@ -37,6 +37,11 @@
 		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
+        <!--sigup popup script-->
+        <script src="assets/js/signup.js"></script>
+       <script src="assets/js/ligin.js"></script>
+        <link rel="stylesheet" href="assets/css/others.css"/>
+        <link rel="stylesheet" href="assets/css/login.css"/>
 	</head>
 	
     <body data-spy="scroll" data-offset="80">
@@ -66,11 +71,8 @@
 						<ul class="nav navbar-nav navbar-right">
 							<li><a class="page-scroll" href="#home">Home</a></li>
 							<li><a class="page-scroll" href="#about">About</a></li>
-							<li><a class="page-scroll" href="#service">Service</a></li>
-							<li><a class="page-scroll" href="#portfolio">Work</a></li>
-							<li><a class="page-scroll" href="#team">Team</a></li>	
-							<li><a class="page-scroll" href="#blog">Blog</a></li>							
-							<li><a class="page-scroll" href="#pricing">Pricing</a></li>
+       <li><a class="page-scroll" href="#team">Team</a></li>	
+						     <li><a class="page-scroll" href="#pricing">Pricing</a></li>
 							<li><a class="page-scroll" href="#contact">Contact</a></li>
 						</ul>
 					</nav>
@@ -85,33 +87,35 @@
 		<ul class="cd-hero-slider autoplay">
 			<li class="selected">
 				<div class="slider-image">
-					<img src="assets/img/slider/slider1.jpg" alt="">
+					<img src="assets/img/slider/cosmo3.jpg" alt="">
 				</div>
 				
 	
 				<div class="cd-full-width">
-					<h2>Creative - Clean - Responsive</h2>
-					<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
-					<a href="#" class="cd-btn btn-home-bg">Start With US</a>
+					<h2>Simple - Easy - Effecient</h2>
+					<p>Use Cosmo to manage your construction projects effectively</p>
+				<a href="#" onclick="overlay()"class="cd-btn btn-home-bg">Subscribe now</a>
+					<a href="#openModal"class="cd-btn btn-home-border">Login</a>
+                    <a href="#0" class="cd-btn btn-home-border">Get a demo</a>
 				</div> <!-- .cd-full-width -->
 		
 			</li>
 
 			<li>
 				<div class="slider-image">
-					<img src="assets/img/slider/slider2.jpg" alt="">
+					<img src="assets/img/slider/cosmos2.jpg" alt="">
 				</div>
 				
 				<div class="cd-half-width text-left">
-					<h2>Start Your Business </h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In consequatur cumque natus!</p>
-					<a href="#0" class="cd-btn btn-home-bg">Start With US</a>
-					<a href="#0" class="cd-btn btn-home-border">Purchase Now</a>
+					<h2>Manage your construction projects with Cosmo</h2>
+					<p>Cosmo is simple and very easy to use. </p>
+					<a href="#0" class="cd-btn btn-home-bg">Get a demo</a>
+					<a href="#"  onclick="overlay()"class="cd-btn btn-home-border">Subscribe Now</a>
 				</div> <!-- .cd-half-width -->
 
 			
 				<div class="cd-half-width cd-img-container">
-					<img src="assets/img/slider/desktop-image.png" alt="tech 1">
+					<img src="assets/img/slider/#desktop-image.png" alt="tech 1">
 				</div> <!-- .cd-half-width.cd-img-container -->
 				
 
@@ -124,14 +128,15 @@
 				
 				
 				<div class="cd-half-width cd-img-container">
-					<img src="assets/img/slider/desktop-image.png" alt="tech 2">
+					<img src="assets/img/slider/#desktop-image.png" alt="tech 2">
 				</div> <!-- .cd-half-width.cd-img-container -->
 
 				<div class="cd-half-width text-left">
 					<h2>Join With US</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In consequatur cumque natus!</p>
-					<a href="#0" class="cd-btn btn-home-bg">Start With US</a>
-					<a href="#0" class="cd-btn btn-home-border">Purchase Now</a>
+					<a href="#" onclick="overlay()" class="cd-btn btn-home-bg">Subscribe now</a>
+					<a href="#openModal" class="cd-btn btn-home-border">Login</a>
+                    <a href="#0" class="cd-btn btn-home-border">Get a demo</a>
 				</div> <!-- .cd-half-width -->
 			
 			</li>
@@ -139,16 +144,18 @@
 			<li class="cd-bg-video">
 				
 				<div class="cd-full-width">
-					<h2>Video Background</h2>
+					<h2>Save time and resources with Cosmo</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, explicabo.</p>
-					<a href="#0" class="cd-btn btn-home-bg">Start With US</a>
+					<a href="#" onclick="overlay()"class="cd-btn btn-home-bg">Subscribe now</a>
+					<a href="#openModal" class="cd-btn btn-home-border">Login</a>
+                    <a href="#0" class="cd-btn btn-home-border">Get a demo</a>
 				</div> <!-- .cd-full-width -->
 				
 				<div class="slider-image"></div>
-					<div class="cd-bg-video-wrapper" data-video="assets/img/slider/video/video">
-						<!-- video element will be loaded using jQuery -->
-					</div> <!-- .cd-bg-video-wrapper -->
-				
+					
+				<div class="slider-image">
+					<img src="assets/img/slider/cosmo4.png" alt="">
+				</div>
 				
 			</li>
 
@@ -174,29 +181,29 @@
 				<div class="row">
 				
 					<div class="section-title text-center wow zoomIn">
-						<h2>Ratio <span>Features</span></h2>
+						<h2>Cosmo <span>Features</span></h2>
 						<div></div>
 					</div>
 					
 					<div class="col-md-3 col-sm-6 col-xs-12 single_about wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s" data-wow-offset="0">
 						<i class="fa fa-tablet"></i>
-						<h4>Professional</h4>
-						<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>						
+						<h4>Task Manager</h4>
+						<p>Easily assign task and monitor progress</p>						
 					</div><!--- END COL -->
 					<div class="col-md-3 col-sm-6 col-xs-12 single_about wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0">	
 						<i class="fa fa-life-ring"></i>
-						<h4>Passion</h4>
-						<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+						<h4>Budget Tool</h4>
+						<p>Simple, smart and easy project and task budgetig tool</p>
 					</div><!--- END COL -->
 					<div class="col-md-3 col-sm-6 col-xs-12 single_about wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s" data-wow-offset="0">		
 						<i class="fa fa-paper-plane-o"></i>
-						<h4>Meterial Design</h4>
-						<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+						<h4>Inventor</h4>
+						<p>An easy to use materials inventory tool</p>
 					</div><!--- END COL -->
 					<div class="col-md-3 col-sm-6 col-xs-12 single_about wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s" data-wow-offset="0">
 						<i class="fa fa-file-text-o"></i>
-						<h4>Well Documented</h4>
-						<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+						<h4>Issues handler</h4>
+						<p>Handle issues/concers raise by workers</p>
 					</div><!--- END COL -->						
 				</div><!--- END ROW -->								
 			</div><!--- END CONTAINER -->
@@ -213,13 +220,14 @@
 					</div>					
 					<div class="col-md-6 col-sm-6 col-xs-12">
 						<div class="single_about_content">
-							<iframe src="https://player.vimeo.com/video/183058098"></iframe>
+							<img src="assets/img/who_we_are.jpg"/>
 						</div>
 					</div><!--- END COL -->					
 					<div class="col-md-6 col-sm-6 col-xs-12">
 						<div class="single_about_content">
 
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pulvinar lacus ut eros euismod, sit amet convallis lorem sagittis. In felis dolor, fringilla at mollis ac, blandit a magna. Pellentesque vehicula felis ex, id maximus.</p>
+							<p>Cosmo is a Silicon Valley based software company that digitalises the construction process. Cosmo develops and sells simple to use 
+                            construction softwares that are highly effecient and user-friendly.</p>
 					
 
 						</div>	
@@ -281,18 +289,19 @@
 								<div class="col-sm-6">
 									<div class="single_feature">
 										<i class="fa fa-pencil-square-o"></i>
-										<h3>unique Ideas</h3>
+										<h3>Simple to use</h3>
 										<span></span>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras interdum ante vel aliquet euismod. </p>	
+										<p>Unlike existing others, Cosmo is very simple and easy to use. We are not complicated like them </p>	
 									</div>
 								</div><!-- END col-sm-6 -->	
+                                
 								
 								<div class="col-sm-6">
 									<div class="single_feature">
 										<i class="fa fa-magic"></i>
-										<h3>Timely delivery</h3>
+										<h3>Effecient</h3>
 										<span></span>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras interdum ante vel aliquet euismod. </p>	
+										<p>Cosmo is not only simple to use, it actually gets the job done timely with little wastage </p>	
 									</div>
 								</div><!-- END col-sm-6 -->
 								
@@ -301,18 +310,10 @@
 										<i class="fa fa-html5"></i>
 										<h3>Cost effectiveness</h3>
 										<span></span>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras interdum ante vel aliquet euismod. </p>
+										<p>Our product is very affordable. </p>
 									</div>
 								</div><!-- END col-sm-6 -->
-								
-								<div class="col-sm-6">
-									<div class="single_feature">
-										<i class="fa fa-heart-o"></i>
-										<h3>Modern & Simple</h3>
-										<span></span>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras interdum ante vel aliquet euismod. </p>
-									</div>
-								</div><!-- END col-sm-6 -->
+                               
 								
 							</div><!-- END CAROUSEL INNER -->
 						</div><!-- END CAROUSEL SLIDE -->				
@@ -325,279 +326,9 @@
 		</section>
 		<!-- END WHY CHOOSE US -->
 		
-		<!-- START SERVICE  -->
-		<section id="service" class="our_service section-padding">
-			<div class="container">
-				<div class="row text-center">
-					<div class="section-title wow zoomIn">
-						<h2>our <span>service</span></h2>
-						<div></div>
-					</div>
-					<div class="col-md-4 col-sm-4 col-xs-12 no-padding wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.1s" data-wow-offset="0">
-						<div class="single_service">
-							<i class="fa fa-circle-o-notch"></i>
-							<h4>Consultancy</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras interdum ante vel aliquet</p>
-						</div>
-					</div><!--END COL -->
-					<div class="col-md-4 col-sm-4 col-xs-12 no-padding wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.1s" data-wow-offset="0">
-						<div class="single_service">
-							<i class="fa fa-keyboard-o"></i>
-							<h4>Finance</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras interdum ante vel aliquet</p>
-						</div>
-					</div><!--END COL -->
-					<div class="col-md-4 col-sm-4 col-xs-12 no-padding wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.1s" data-wow-offset="0">
-						<div class="single_service">
-							<i class="fa fa-bullhorn"></i>
-							<h4>Advertising</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras interdum ante vel aliquet</p>
-						</div>
-					</div><!--END COL -->
-					<div class="col-md-4 col-sm-4 col-xs-12 no-padding wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.1s" data-wow-offset="0">
-						<div class="single_service">
-							<i class="fa fa-life-bouy"></i>
-							<h4>Planning</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras interdum ante vel aliquet</p>
-						</div>
-					</div><!--END COL -->
-					<div class="col-md-4 col-sm-4 col-xs-12 no-padding wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.1s" data-wow-offset="0">
-						<div class="single_service">
-							<i class="fa fa-briefcase"></i>
-							<h4>Online Support</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras interdum ante vel aliquet</p>
-						</div>
-					</div><!--END COL -->
-					<div class="col-md-4 col-sm-4 col-xs-12 no-padding wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.1s" data-wow-offset="0">
-						<div class="single_service">
-							<i class="fa fa-camera-retro"></i>
-							<h4>Super Ideas</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras interdum ante vel aliquet</p>
-						</div>
-					</div><!--END COL -->
-				</div><!--END  ROW -->
-			</div><!-- END CONTAINER -->
-		</section>
-		<!-- END SERVICE-->	
+	
 		
-		<!-- START PORTFOLIO -->	
-		<section id="portfolio" class="works_area section-padding">	
-			<div class="container-fluid">
-				<div class="row text-center">
-					<div class="section-title wow zoomIn">
-						<h2>Latest <span>works</span></h2>
-						<div></div>
-					</div>
-					<div class="col-md-12">
-						<div class="our_work_menu">
-							<ul>
-								<li class="filter wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".25s" data-filter="all">All</li>
-								<li class="filter" data-filter=".branding">Branding</li>
-								<li class="filter" data-filter=".web">Web</li>
-								<li class="filter" data-filter=".package">Package</li>
-								<li class="filter" data-filter=".video">Video</li>
-							</ul>
-						</div>				
-					</div>
-					
-					<div class="work_all_item">
-						<div class="grid-item col-md-3 col-sm-6 col-xs-12 mix all branding package">
-							<div class="single_our_work">
-								<div class="sing_work_photo">
-									<figure>								
-										<img src="assets/img/portfolio/1.jpg" alt="img">
-										<div class="sing_work_text_link">
-											<div class="sing_work_content_wrap">
-												<div class="sing_work_content">
-													<div class="sing_link_img">
-														<a href="assets/img/portfolio/1.jpg" class="lightbox search" data-gall="gall-work"><i class="fa fa-eye"></i></a>
-														<a href="single_project.html" class="link"><i class="fa fa-link"></i></a>
-													</div>	
-													<h5>Portfolio Title</h5>													
-													<p>Branding</p>
-												</div>
-											</div>
-										</div>	
-									</figure>
-								</div>				
-							</div>
-						</div>
-						
-						<div class="grid-item col-md-3 col-sm-6 col-xs-12 mix all web">
-							<div class="single_our_work">
-								<div class="sing_work_photo">
-									<figure>
-										<img src="assets/img/portfolio/2.jpg" alt="img">
-										<div class="sing_work_text_link">
-											<div class="sing_work_content_wrap">
-												<div class="sing_work_content">
-													<div class="sing_link_img">
-														<a href="assets/img/portfolio/1.jpg" class="lightbox search" data-gall="gall-work"><i class="fa fa-eye"></i></a>
-														<a href="single_project.html" class="link"><i class="fa fa-link"></i></a>
-													</div>	
-													<h5>Portfolio Title</h5>													
-													<p>Branding</p>
-													
-
-												</div>
-											</div>
-										</div>
-									</figure>
-								</div>				
-							</div>
-						</div>
-						
-						<div class="grid-item col-md-3 col-sm-6 col-xs-12 all package branding">
-							<div class="single_our_work">
-								<div class="sing_work_photo">
-									<figure>
-										<img src="assets/img/portfolio/3.jpg" alt="img">
-										<div class="sing_work_text_link">
-											<div class="sing_work_content_wrap">
-												<div class="sing_work_content">
-													<div class="sing_link_img">
-														<a href="assets/img/portfolio/1.jpg" class="lightbox search" data-gall="gall-work"><i class="fa fa-eye"></i></a>
-														<a href="single_project.html" class="link"><i class="fa fa-link"></i></a>
-													</div>	
-													<h5>Portfolio Title</h5>													
-													<p>Branding</p>
-													
-
-												</div>
-											</div>
-										</div>								
-									</figure>
-								</div>				
-							</div>
-						</div>
-						
-						<div class="grid-item col-md-3 col-sm-6 col-xs-12 mix all branding package video">
-							<div class="single_our_work">
-								<div class="sing_work_photo">
-									<figure>
-										<img src="assets/img/portfolio/4.jpg" alt="img">
-										<div class="sing_work_text_link">
-											<div class="sing_work_content_wrap">
-												<div class="sing_work_content">
-													<div class="sing_link_img">
-														<a href="assets/img/portfolio/1.jpg" class="lightbox search" data-gall="gall-work"><i class="fa fa-eye"></i></a>
-														<a href="single_project.html" class="link"><i class="fa fa-link"></i></a>
-													</div>	
-													<h5>Portfolio Title</h5>													
-													<p>Branding</p>
-													
-
-												</div>
-											</div>
-										</div>							
-									</figure>
-								</div>				
-							</div>
-						</div>					
-						
-						<div class="grid-item col-md-3 col-sm-6 col-xs-12 mix all branding package">
-							<div class="single_our_work">
-								<div class="sing_work_photo">
-									<figure>
-										<img src="assets/img/portfolio/5.jpg" alt="img">
-										<div class="sing_work_text_link">
-											<div class="sing_work_content_wrap">
-												<div class="sing_work_content">
-													<div class="sing_link_img">
-														<a href="assets/img/portfolio/1.jpg" class="lightbox search" data-gall="gall-work"><i class="fa fa-eye"></i></a>
-														<a href="single_project.html" class="link"><i class="fa fa-link"></i></a>
-													</div>	
-													<h5>Portfolio Title</h5>													
-													<p>Branding</p>
-													
-
-												</div>
-											</div>
-										</div>									
-									</figure>
-								</div>				
-							</div>
-						</div>					
-						
-						<div class="grid-item col-md-3 col-sm-6 col-xs-12 mix all branding video">
-							<div class="single_our_work">
-								<div class="sing_work_photo">
-									<figure>
-										<img src="assets/img/portfolio/6.jpg" alt="img">
-										<div class="sing_work_text_link">
-											<div class="sing_work_content_wrap">
-												<div class="sing_work_content">
-													<div class="sing_link_img">
-														<a href="assets/img/portfolio/1.jpg" class="lightbox search" data-gall="gall-work"><i class="fa fa-eye"></i></a>
-														<a href="single_project.html" class="link"><i class="fa fa-link"></i></a>
-													</div>	
-													<h5>Portfolio Title</h5>													
-													<p>Branding</p>
-													
-
-												</div>
-											</div>
-										</div>																		
-									</figure>
-								</div>			
-							</div>
-						</div>						
-
-						<div class="grid-item col-md-3 col-sm-6 col-xs-12 mix all branding video">
-							<div class="single_our_work">
-								<div class="sing_work_photo">
-									<figure>
-										<img src="assets/img/portfolio/7.jpg" alt="img">
-										<div class="sing_work_text_link">
-											<div class="sing_work_content_wrap">
-												<div class="sing_work_content">
-													<div class="sing_link_img">
-														<a href="assets/img/portfolio/1.jpg" class="lightbox search" data-gall="gall-work"><i class="fa fa-eye"></i></a>
-														<a href="single_project.html" class="link"><i class="fa fa-link"></i></a>
-													</div>	
-													<h5>Portfolio Title</h5>													
-													<p>Branding</p>
-													
-
-												</div>
-											</div>
-										</div>																		
-									</figure>
-								</div>			
-							</div>
-						</div>						
-
-						<div class="grid-item col-md-3 col-sm-6 col-xs-12 mix all branding video">
-							<div class="single_our_work">
-								<div class="sing_work_photo">
-									<figure>
-										<img src="assets/img/portfolio/8.jpg" alt="img">
-										<div class="sing_work_text_link">
-											<div class="sing_work_content_wrap">
-												<div class="sing_work_content">
-													<div class="sing_link_img">
-														<a href="assets/img/portfolio/1.jpg" class="lightbox search" data-gall="gall-work"><i class="fa fa-eye"></i></a>
-														<a href="single_project.html" class="link"><i class="fa fa-link"></i></a>
-													</div>	
-													<h5>Portfolio Title</h5>													
-													<p>Branding</p>
-													
-
-												</div>
-											</div>
-										</div>																		
-									</figure>
-								</div>			
-							</div>
-						</div>											
-					</div>				
-				</div>
-				<div class="portfolio_btn text-center">
-					<a href="#" class="btn-light-bg">See More Work</a>
-				</div>				
-			</div>			
-		</section>		
-		<!-- END PORTFOLIO -->	
+			
 
 		<!-- START COUNDOWN --> 
 		<section class="counter_feature">
@@ -641,19 +372,19 @@
 			<div class="container">		
 				<div class="row text-center">
 					<div class="section-title wow zoomIn">
-						<h2>Our <span>Experts</span></h2>
+						<h2>Our <span>Team</span></h2>
 						<div></div>
 					</div>				
-					<div class="col-md-3 col-sm-6">
+					<div class="col-md-2 col-sm-6">
 						<div class="single_team">
 							<div class="img_wrap">
-								<img src="assets/img/team/1.jpg" class="img-responsive" alt="" />
+								<img src="assets/img/team/kelvin.jpg" class="img-responsive" alt="" />
 							</div>
 							
-							<h3>Joe S. Sloat</h3>
-							<p>Co Founder</p>
+							<h3>Kelvin Wachira</h3>
+							<p>Business Lead</p>
 							<span>
-								Sed delectus fugiat facere iusto magni at molestiae debitis doloribus aliquid corporis inventore.
+								ffgfgfgh.
 							</span>
 							<ul class="list-inline social_link">
 								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -662,15 +393,15 @@
 							</ul>									
 						</div>
 					</div> <!-- End Col -->				
-					<div class="col-md-3 col-sm-6">
+					<div class="col-md-2 col-sm-6">
 						<div class="single_team">
 							<div class="img_wrap">
-								<img src="assets/img/team/2.jpg" class="img-responsive" alt="" />
+								<img src="assets/img/team/duncan.jpg" class="img-responsive" alt="" />
 							</div>
-							<h3>Myron J. Baxter</h3>
-							<p>CEO</p>
+							<h3>Duncan Murithi</h3>
+							<p>Product Manager</p>
 							<span>
-								Sed delectus fugiat facere iusto magni at molestiae debitis doloribus aliquid corporis inventore.
+								xxxx.
 							</span>							
 							<ul class="list-inline social_link">
 								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -679,15 +410,15 @@
 						</ul>				
 						</div>
 					</div> <!-- End Col -->					
-					<div class="col-md-3 col-sm-6">
+					<div class="col-md-2 col-sm-6">
 						<div class="single_team">
 							<div class="img_wrap">
-								<img src="assets/img/team/3.jpg" class="img-responsive" alt="" />
+								<img src="assets/img/team/Joseph.png" class="img-responsive" alt="" />
 							</div>
-							<h3>Keith W. Nelson</h3>
-							<p>Designer</p>	
+							<h3>Joseph Abokpe</h3>
+							<p>Back-End Developer</p>	
 							<span>
-								Sed delectus fugiat facere iusto magni at molestiae debitis doloribus aliquid corporis inventore.
+								hshsh.
 							</span>							
 							<ul class="list-inline social_link">
 								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -696,15 +427,15 @@
 							</ul>							
 						</div>
 					</div> <!-- End Col -->				
-					<div class="col-md-3 col-sm-6">
+					<div class="col-md-2 col-sm-6">
 						<div class="single_team">
 							<div class="img_wrap">
-								<img src="assets/img/team/4.jpg" class="img-responsive" alt="" />
+								<img src="assets/img/team/vansolo.jpg" class="img-responsive" alt="" />
 							</div>
-							<h3>Ruth A. Neilsen</h3>
-							<p>Markater</p>
+							<h3>Solomon Nyefene</h3>
+							<p>Front-End Deloper</p>
 							<span>
-								Sed delectus fugiat facere iusto magni at molestiae debitis doloribus aliquid corporis inventore.
+								xxx.
 							</span>							
 							<ul class="list-inline social_link">
 								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -713,6 +444,24 @@
 							</ul>							
 						</div>
 					</div> <!-- End Col -->	
+                    div> <!-- End Col -->				
+					<div class="col-md-2 col-sm-6">
+						<div class="single_team">
+							<div class="img_wrap">
+								<img src="assets/img/team/gerald.jpg" class="img-responsive" alt="" />
+							</div>
+							<h3>Gerald Munyingi</h3>
+							<p>Business and Communication</p>
+							<span>
+								xxx.
+							</span>							
+							<ul class="list-inline social_link">
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+							</ul>							
+						</div>
+					</div> <!-- End Col -->
 				</div>
 			</div>
 		</section>
@@ -746,9 +495,12 @@
 		<!-- START PRICING -->
 		<section id="pricing" class="pricing_table section-padding">
 			<div class="container">
-				<div class="row text-center">
+                          
+		            <div class="row text-center">
 					<div class="section-title wow zoomIn">
-						<h2>Ratio <span>Pricing</span></h2>
+                    <h1>Use Cosmo free for your first projects</h1>
+                    <a href="#" onclick='overlay()'><img src="assets/img/others/start_here.png"/></a>
+						<h2>Cosmo<span>Pricing</span></h2>
 						<div></div>
 					</div>		
 					<div class="col-md-4 col-sm-4 col-xs-12">
@@ -887,53 +639,7 @@
 		</div>
 		<!-- END COMPANY PARTNER LOGO -->
 
-		<!-- START HOME BLOG -->
-		<section id="blog" class="home_blog section-padding">
-			<div class="container">
-				<div class="row">
-					<div class="section-title text-center wow zoomIn">
-						<h2>Latest <span>blog</span></h2>
-						<div></div>
-					</div>
-					<div class="col-md-4 col-sm-6 col-xs-12">
-						<div class="home_single_blog">
-							<img class="blog-photo" alt="" src="assets/img/blog/blog-1.jpg"/>
-							<div class="home_blog_text wow fadeInLeft">
-								 <span><i class="fa fa-user"></i> Admin</span><span><i class="fa fa-calendar"></i> Sep 05 2016</span>
-								 <h4>What is creative design</h4>
-								 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed elit tortor. Quisque bibendum mauris velit.</p>
-								<a class="btn-light-bg" href="#">Read More</a>
-							</div>
-						</div><!--- END SINGLE BLOG POST -->
-					</div><!--- END COL -->
-					
-					<div class="col-md-4 col-sm-6 col-xs-12">
-						<div class="home_single_blog">
-							<img class="blog-photo" alt="" src="assets/img/blog/blog-2.jpg"/>
-							<div class="home_blog_text wow fadeInLeft">
-								 <span><i class="fa fa-user"></i> Admin</span><span><i class="fa fa-calendar"></i> Sep 05 2016</span>
-								 <h4>what is material design</h4>
-								 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed elit tortor. Quisque bibendum mauris velit.</p>
-								<a class="btn-light-bg" href="#">Read More</a>
-							</div>
-						</div><!--- END SINGLE BLOG POST -->
-					</div><!--- END COL -->					
-					
-					<div class="col-md-4 col-sm-6 col-xs-12">
-						<div class="home_single_blog">
-							<img class="blog-photo" alt="" src="assets/img/blog/blog-3.jpg"/>
-							<div class="home_blog_text wow fadeInLeft">
-								 <span><i class="fa fa-user"></i> Admin</span><span><i class="fa fa-calendar"></i> Sep 05 2016</span>
-								 <h4>what is material design</h4>
-								 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed elit tortor. Quisque bibendum mauris velit.</p>
-								<a class="btn-light-bg" href="#">Read More</a>
-							</div>
-						</div><!--- END SINGLE BLOG POST -->
-					</div><!--- END COL -->
-				</div><!--- END ROW -->
-			</div><!--- END CONTAINER -->
-		</section>
-		<!-- END HOME BLOG -->
+		
 		
 		<!-- PROMOTION -->
 		<section class="buy_now">
@@ -979,32 +685,10 @@
 		</section>
 		<!-- END CONTACT FORM -->
 		
-		<!-- START MAP -->
-		<!-- map js -->
-		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwIQh7LGryQdDDi-A603lR8NqiF3R_ycA"></script>
-		<script>
-			function initialize() {
-			  var mapOptions = {
-				zoom: 15,
-				
-				scrollwheel: false,
-				center: new google.maps.LatLng(40.7127837, -74.00594130000002),
-				
-			  };
-			  var map = new google.maps.Map(document.getElementById('map'),
-				  mapOptions);
-			  var marker = new google.maps.Marker({
-				position: map.getCenter(),
-				icon: 'assets/img/map_pin.png',
-				map: map,
-				
-			  });
-	  
-			}
-			google.maps.event.addDomListener(window, 'load', initialize);				
-		</script>
-		<div id="map"></div>
-		<!-- END MAP -->
+		
+        <!--START SIGN UP FORM-->
+  
+<!--END SIGN UP FORM-->        
 		
 		<!-- START FOOTER -->
 		<footer class="footer section-padding">
@@ -1023,7 +707,7 @@
 									<li><a class="f_skype wow bounceInDown" data-wow-delay=".5s" href="#"><i class="fa fa-skype"></i></a></li>
 								</ul>
 							</div>	
-							<p>Ratio &copy; 2016 All Rights Reserved.</p>
+							<p>Cosmo &copy; 2016 All Rights Reserved.</p>
 						</div>
 												
 					</div><!--- END COL -->
@@ -1048,6 +732,49 @@
 			  </ul>
 			</div>
 		 </div>  
+         
+          <!-- signup and login forms starts-->
+  <div id="overlay">
+     <div>
+          
+          <h3>Sign Up for Cosmo</h3>
+          <form id="signup_form">
+           <label>First Name:</label><br />
+           <input id="sing_up_form_input_fiel" type="text"/><br />
+           <label>Email:</label><br />
+           <input id="sing_up_form_input_fiel"type="text"/><br />
+           <label>Tel:</label><br />
+           <input id="sing_up_form_input_fiel" type="text"/><br />
+           <label>username:</label><br />
+           <input id="sing_up_form_input_fiel"type="text"/><br />
+           <label>Password:</label><br />
+           <input id="sing_up_form_input_fiel"type="text"/><br /><br />
+           <input type="button" value="Create Account" onclick="window.location = 'projects.html';">
+          </form>
+          <span>Have a Cosmo account already?</span><a href='#' onclick='overlay()'><span style="color: red;">SignIn</span></a><br />
+           [<a href='#' onclick='overlay()'><span style="color: red;">Close</span></a>]
+           
+     </div>
+     
+</div>
+<div id="openModal" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+		<h2>Login to Cosmo</h2>
+        <label id="label">Email</label><br />
+        <input type="text" id="input_field"/><br />
+        <label id="label">Password</label><br />
+        <input type="text" id="input_field"/><br />
+        <input type="button" value="Login" onclick="window.location = 'projects.html';">
+        </span><a href="#overlay">SignUp</a>
+	</div>
+</div>
+
+
+           <!-- signup  and login form starts-->
+                   
+                          
+         
 		 <!-- END OF STYLE SWITCHER -->
 		 		 
 		<!-- Latest jQuery -->
